@@ -21,7 +21,7 @@ export default function RestaurantList() {
   return (
     <>
       <div className=" mx-auto  w-full mb-10 max-w-6xl">
-        <h1 className="text-3xl p-5">Chhindwara Restaurants</h1>
+        <h1 className="text-2xl md:text-3xl p-5">Chhindwara Restaurants</h1>
         <div className="flex flex-wrap gap-10 p-4">
           {rest.map((v, i) => {
             return (
